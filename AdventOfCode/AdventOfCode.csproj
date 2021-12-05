@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ChallengeData\Challenge1Data.txt" />
+    <None Remove="ChallengeData\Challenge2Data.txt" />
+    <None Remove="ChallengeData\Challenge3Data.txt" />
+    <None Remove="ChallengeData\Challenge4Data.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ChallengeData\Challenge1Data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ChallengeData\Challenge2Data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ChallengeData\Challenge3Data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ChallengeData\Challenge4Data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
